@@ -1,0 +1,74 @@
+* {
+    font-family: 'Lato', sans-serif;
+    color: gray;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1000px;
+    margin: 10px auto;
+}
+
+h3 {
+	margin-left: 20px;
+}
+
+img {
+    min-width: 100px;
+}
+
+header {
+    text-align: right;
+}
+
+article {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+article img {
+    object-fit: cover;
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.title_text {
+    text-align: right;
+}
+
+.title_icon {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+}
+
+
+/*.row {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.title_icon {
+    text-align: left;
+    width: 10%;
+}
+
+.left_align {
+	text-align: left;
+}
+
+.projects {
+	text-align: center;
+}
+*/
