@@ -15,8 +15,9 @@ body {
     margin: 10px auto;
 }
 
-h3 {
-	margin-left: 20px;
+article h4 {
+	margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 img {
@@ -29,14 +30,13 @@ header {
 
 article {
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 article img {
     object-fit: cover;
     height: 200px;
     width: 300px;
-    margin-bottom: 10px;
 }
 
 .title_text {
@@ -49,26 +49,3 @@ article img {
     height: 100px;
 }
 
-
-/*.row {
-    width: 100%;
-    margin-bottom: 10px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-
-.title_icon {
-    text-align: left;
-    width: 10%;
-}
-
-.left_align {
-	text-align: left;
-}
-
-.projects {
-	text-align: center;
-}
-*/
