@@ -1,5 +1,5 @@
 * {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     color: gray;
 }
 
@@ -8,11 +8,6 @@
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-}
-
-body {
-    max-width: 1000px;
-    margin: 10px auto;
 }
 
 article h4 {
@@ -24,28 +19,21 @@ img {
     min-width: 100px;
 }
 
-header {
-    text-align: right;
-}
-
 article {
-    text-align: center;
     padding-bottom: 30px;
 }
 
-article img {
-    object-fit: cover;
-    height: 200px;
-    width: 300px;
-}
-
-.title_text {
+.title-text {
     text-align: right;
 }
 
-.title_icon {
-    object-fit: cover;
-    width: 100px;
-    height: 100px;
+.logo {
+    text-align: center;
 }
 
+
+@media screen and (max-width: 767px) {
+    .title-text {
+        text-align: center;
+    }
+}
